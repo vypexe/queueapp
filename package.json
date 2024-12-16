@@ -16,6 +16,8 @@
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "framer-motion": "^11.14.4",
     "lucide-react": "^0.468.0",
     "next": "^15.1.0",
@@ -32,5 +34,15 @@
     "prisma": "^6.0.1",
     "tailwindcss": "^3.4.16",
     "typescript": "5.7.2"
-  }
+  },
+  "name": "queuewebapp",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

@@ -18,7 +18,7 @@ export default function ActiveBots() {
   useEffect(() => {
     const fetchActiveBots = async () => {
       try {
-        const response = await fetch('https://api.yourdomain.com/active-bots', {
+        const response = await fetch('http://localhost:3000/active-bots', {
           headers: {
             'Content-Type': 'application/json',
           },
