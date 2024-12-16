@@ -18,7 +18,7 @@ export default function ActiveBots() {
   useEffect(() => {
     const fetchActiveBots = async () => {
       try {
-        const response = await fetch('/active-bots', {
+        const response = await fetch('http://localhost:3001/active-bots', {
           headers: {
             'Content-Type': 'application/json',
           },
@@ -37,10 +37,9 @@ export default function ActiveBots() {
 
     fetchActiveBots()
 
-    // Optional: Set up polling
     const interval = setInterval(() => {
       fetchActiveBots()
-    }, 60000) // Refresh every 60 seconds
+    }, 60000)
 
     return () => clearInterval(interval)
   }, [])

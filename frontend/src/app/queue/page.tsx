@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import QueueMonitor from '@/components/QueueMonitor';
+import QueueMonitor from '../../components/QueueMonitor';
 
 export default function QueuePage() {
     const [queueUrl, setQueueUrl] = useState('');

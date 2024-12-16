@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import { Card, CardHeader, CardTitle, CardContent } from '../../components/ui/card'
-import { Badge } from '../../components/ui/badge'
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
 import { Bell, CheckCircle, Clock } from 'lucide-react'
 
 // Mock data for notifications
@@ -56,5 +56,4 @@ export default function Dashboard() {
       </CardContent>
     </Card>
   )
-}
-
+} 
